@@ -1,0 +1,24 @@
+<Html>    
+    <Head>  
+    <title>  
+    Example of make a text B,I,U  
+    </title>  
+    </Head>  
+    <Body>   
+    <b> [This text is Bold......] </b>  
+    <I> [This text is Italic......] </I>  
+    <U> [This text is Underline......] </U>   
+
+    <script>
+        //New Websocket Connection
+        const ws = new WebSocket('wss://8081-18dominik-websocket-28ng2ofykk6.ws-eu87.gitpod.io/index.html');
+        //Listen for message from the server
+        ws.onmessage = function(event){
+            console.log("Received by the client", event.data);
+        //Send a message to the server
+        ws.send("Hello from the Client");
+        };
+    </script>
+    </Body>  
+    </Html>  
+
