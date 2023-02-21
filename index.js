@@ -28,7 +28,7 @@ wss.on("connection", ws => { //ws refers to single client websocket connection
     ws.send('Welcome to the Websocket Server');
 
     ws.on('message', function message(event) {
-        console.log('Received by the Client: %s', event);
+        console.log('Received by the Server: %s', event);
       });
 
 });
