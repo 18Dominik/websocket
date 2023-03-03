@@ -28,10 +28,12 @@ const wss = new WebSocketServer({port: 8081}); //wss = websocket server
 wss.on("connection", ws => { //ws refers to single client websocket connection
     console.log("New Client connected!");
     ws.send('Welcome to the Websocket Server');
+
+    ws.on('message', function message(event) {
+      console.log('Received by the Server: %s', event);
+    });
 });
-wss.on('message', function message(event) {
-  console.log('Received by the Server: %s', event);
-});
+
 
 
 
