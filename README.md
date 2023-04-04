@@ -3,7 +3,7 @@ Illustrating the use of websockets
 - Websocket (bi-directional based) is Application Layer Protocol (Layer 7 of OSI) similar to HTTP (request-response based)
 - WebSocket URI Scheme: ws (unencrypted), wss (encrypted)
 - Start App: 
-  - node index.js
+  - `node index.js`
   - Make ports 3000 and 8081 public; 
   - Use updated gitpod-url because websockets do not use relative paths. https://stackoverflow.com/questions/10406930/how-to-construct-a-websocket-uri-relative-to-the-page-uri
   - Refresh browser on port 3000
