@@ -6,6 +6,7 @@ Illustrating the use of websockets
   - node index.js
   - make ports 3000 and 8081 public; 
   - use updated gitpod-url because websockets do not use relative paths. https://stackoverflow.com/questions/10406930/how-to-construct-a-websocket-uri-relative-to-the-page-uri
+  - Check messages on Terminal (Received by the Server: Hello from the Client) and on client console (Received by the client Welcome to the Websocket Serve)
 
 ![image](https://user-images.githubusercontent.com/35842490/229771035-7db99aa8-f73b-46d2-849d-b2fe5563b833.png)
 # Summary of HTTP
