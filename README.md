@@ -16,5 +16,4 @@ Illustrating the use of websockets
 ![image](https://user-images.githubusercontent.com/35842490/229771035-7db99aa8-f73b-46d2-849d-b2fe5563b833.png)
 ![image](https://user-images.githubusercontent.com/35842490/229771183-10270a2c-304e-4b08-89be-bc92ae119bf9.png)
 
-# Start App
 
