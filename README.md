@@ -4,8 +4,8 @@ Illustrating the use of websockets
 - WebSocket URI Scheme: ws (unencrypted), wss (encrypted)
 - Start App: 
   - node index.js
-  - make ports 3000 and 8081 public; 
-  - use updated gitpod-url because websockets do not use relative paths. https://stackoverflow.com/questions/10406930/how-to-construct-a-websocket-uri-relative-to-the-page-uri
+  - Make ports 3000 and 8081 public; 
+  - Use updated gitpod-url because websockets do not use relative paths. https://stackoverflow.com/questions/10406930/how-to-construct-a-websocket-uri-relative-to-the-page-uri
   - Refresh browser on port 3000
   - Check messages on Terminal (Received by the Server: Hello from the Client) and on client console (Received by the client Welcome to the Websocket Server)
 
