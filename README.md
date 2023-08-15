@@ -1,6 +1,7 @@
 # WebSocket
 Illustrating the use of websockets
-- Websocket (bi-directional based) is Application Layer Protocol (Layer 7 of OSI) similar to HTTP (request-response based)
+- Websocket (bi-directional based / two-way communication between two networked systems) is Application Layer Protocol (Layer 7 of OSI) similar to HTTP (request-response based)
+- Example: building a chat application, reflect real-time data values
 - WebSocket URI Scheme: ws (unencrypted), wss (encrypted)
 - Start App: 
   - `node index.js`
